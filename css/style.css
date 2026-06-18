@@ -196,7 +196,8 @@ h2{
 
 .gallery{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    justify-content: center;
+    grid-template-columns:repeat(auto-fit,minmax(280px,320px));
     gap:20px;
 }
 
@@ -315,7 +316,7 @@ button {
     width: 100%;
 }
 
-max-width:1024px {
+@media (max-width:1024px) {
 
     nav {
         padding: 15px 25px;
@@ -334,7 +335,7 @@ max-width:1024px {
     }
 }
 
-max-width:768px {
+@media (max-width:768px) {
 
     nav {
         flex-direction: column;
@@ -385,7 +386,7 @@ max-width:768px {
     }
 }
 
-max-width:480px {
+@media (max-width:480px) {
 
     nav {
         padding: 10px;
@@ -428,7 +429,7 @@ max-width:480px {
     cursor:pointer;
 }
 
-max-width:768px{
+@media (max-width:768px) {
 
     nav{
         flex-direction:row;
