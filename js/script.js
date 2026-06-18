@@ -1,15 +1,4 @@
-document
-.getElementById("requestForm")
-.addEventListener("submit", function(e){
 
-    e.preventDefault();
-
-    alert(
-        "Спасибо! Ваша заявка успешно отправлена. Мы свяжемся с вами в ближайшее время."
-    );
-
-    this.reset();
-});
 
 function reveal() {
     const reveals = document.querySelectorAll('.reveal');
