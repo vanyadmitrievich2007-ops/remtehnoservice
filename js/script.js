@@ -19,7 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const burger = document.getElementById('burger');
     const menu = document.getElementById('menu');
 
+    console.log('burger:', burger);
+    console.log('menu:', menu);
+
     burger.addEventListener('click', () => {
+        console.log('click');
         menu.classList.toggle('active');
     });
 });
