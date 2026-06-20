@@ -274,7 +274,12 @@ footer{
     transform: translateY(0);
 }
 
-
+.burger{
+    display:none;
+    font-size:30px;
+    color:white;
+    cursor:pointer;
+}
 
 /* Адаптивность */
 
