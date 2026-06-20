@@ -343,29 +343,33 @@ button {
 
 @media (max-width:768px){
 
-    nav{
-        position:relative;
-    }
-
     .burger{
         display:block;
+        position:relative;
+        z-index:1001;
     }
 
     nav ul{
-        display:none;
-        position:absolute;
-        top:70px;
-        left:0;
-        width:100%;
-        background:#071a35;
+        position:fixed;
+        top:0;
+        right:-300px;
+        width:250px;
+        height:100vh;
+
+        display:flex;
         flex-direction:column;
+        justify-content:center;
         align-items:center;
-        gap:20px;
-        padding:20px 0;
+        gap:30px;
+
+        background:#071a35;
+
+        transition:0.4s ease;
+        z-index:1000;
     }
 
     nav ul.active{
-        display:flex;
+        right:0;
     }
 }
 
