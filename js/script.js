@@ -15,11 +15,12 @@ function reveal() {
 }
 window.addEventListener('scroll', reveal);reveal();
 
-const burger = document.getElementById('burger');
-const menu = document.getElementById('menu');
+document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.getElementById('burger');
+    const menu = document.getElementById('menu');
 
-burger.addEventListener('click', () => {
-    menu.classList.toggle('active');
+    burger.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
 });
-
 
