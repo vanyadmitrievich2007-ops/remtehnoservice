@@ -274,14 +274,7 @@ footer{
     transform: translateY(0);
 }
 
-.burger{
-    position: relative;
-    z-index: 9999;
-    display:none;
-    font-size:30px;
-    color:white;
-    cursor:pointer;
-}
+
 
 /* Адаптивность */
 
@@ -320,6 +313,13 @@ input,
 textarea,
 button {
     width: 100%;
+}
+
+.burger{
+    display:none;
+    font-size:30px;
+    color:white;
+    cursor:pointer;
 }
 
 @media (max-width:1024px) {
