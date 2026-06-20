@@ -275,13 +275,13 @@ footer{
 }
 
 .burger{
+    position: relative;
+    z-index: 9999;
     display:none;
     font-size:30px;
     color:white;
     cursor:pointer;
 }
-
-
 
 /* Адаптивность */
 
